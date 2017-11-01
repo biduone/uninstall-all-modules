@@ -1,0 +1,14 @@
+{
+  "name": "uninstall-all-modules",
+  "version": "1.0.0",
+  "description": "To uninstall all node_modules of current directroy by `npm uninstall`",
+  "main": "index.js",
+  "scripts": {
+    "test": "uninstall-all-modules"
+  },
+  "keywords": [
+    "uninstall"
+  ],
+  "author": "Robort Zhou",
+  "license": "MIT"
+}
