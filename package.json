@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "uninstall-all-modules"
+  },  
+  "bin": {
+    "uninstall-all-modules": "./bin/npm-uninstall-all-local"
   },
   "keywords": [
     "uninstall"
