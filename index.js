@@ -2,7 +2,13 @@
 let fs = require('fs'),
 	exec = require('child_process').exec,
 	str = 'npm uninstall';
-let dirs = fs.readdirSync('./node_modules');
+let dirs = null;
+try{
+	fs.readdirSync('./node_modules');
+}catch(e){
+	console.error('Error:', "Maybe no node_modules directory of project at here" )
+	return;
+}
 
 
 for (var prop in dirs){
