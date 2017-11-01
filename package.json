@@ -1,13 +1,13 @@
 {
   "name": "uninstall-all-modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "To uninstall all node_modules of current directroy by `npm uninstall`",
   "main": "index.js",
   "scripts": {
     "test": "uninstall-all-modules"
   },  
   "bin": {
-    "uninstall-all-modules": "./bin/npm-uninstall-all-local"
+    "uninstall-all-modules": "./npm-uninstall-all-local"
   },
   "keywords": [
     "uninstall"
