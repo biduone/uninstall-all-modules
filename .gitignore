@@ -1,0 +1,6 @@
+/yarn-error.log
+.idea
+.vscode
+bower_components
+node_modules
+
